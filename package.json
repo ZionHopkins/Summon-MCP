@@ -1,0 +1,33 @@
+{
+  "name": "summon-mcp",
+  "version": "0.1.0",
+  "description": "Objective-Driven Cognitive Architecture Engine — summon experts, councils, and autonomous organizations from any objective",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "summon-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "ai-agents",
+    "paperclip",
+    "autonomous-organizations",
+    "synthetic-experts",
+    "digital-twins",
+    "cognitive-architecture"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  }
+}
