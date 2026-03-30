@@ -36,14 +36,9 @@ The MCP server handles orchestration. The host LLM (Claude, etc.) handles all re
 
 ## Quick Start
 
-### Install
+### Install via npx (Recommended)
 
-```bash
-git clone https://github.com/YOUR_USERNAME/summon-mcp.git
-cd summon-mcp
-npm install
-npm run build
-```
+No installation required — just configure your MCP client:
 
 ### Connect to Claude Desktop
 
@@ -57,20 +52,7 @@ Add to your Claude Desktop config (`claude_desktop_config.json`):
   "mcpServers": {
     "summon": {
       "command": "npx",
-      "args": ["tsx", "/absolute/path/to/summon-mcp/src/index.ts"]
-    }
-  }
-}
-```
-
-Or with the compiled version:
-
-```json
-{
-  "mcpServers": {
-    "summon": {
-      "command": "node",
-      "args": ["/absolute/path/to/summon-mcp/dist/index.js"]
+      "args": ["summon-mcp"]
     }
   }
 }
@@ -81,7 +63,16 @@ Restart Claude Desktop. SUMMON tools will appear in your tool list.
 ### Connect to Claude Code
 
 ```bash
-claude mcp add summon -- npx tsx /absolute/path/to/summon-mcp/src/index.ts
+claude mcp add summon -- npx summon-mcp
+```
+
+### Install from Source
+
+```bash
+git clone https://github.com/ZionHopkins/summon.git
+cd summon
+npm install
+npm run build
 ```
 
 ## Usage
