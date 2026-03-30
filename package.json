@@ -20,11 +20,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZionHopkins/summon.git"
+    "url": "git+https://github.com/ZionHopkins/Summon-MCP.git"
   },
-  "homepage": "https://github.com/ZionHopkins/summon#readme",
+  "homepage": "https://github.com/ZionHopkins/Summon-MCP#readme",
   "bugs": {
-    "url": "https://github.com/ZionHopkins/summon/issues"
+    "url": "https://github.com/ZionHopkins/Summon-MCP/issues"
   },
   "keywords": [
     "mcp",

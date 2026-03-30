@@ -69,8 +69,8 @@ claude mcp add summon -- npx summon-mcp
 ### Install from Source
 
 ```bash
-git clone https://github.com/ZionHopkins/summon.git
-cd summon
+git clone https://github.com/ZionHopkins/Summon-MCP.git
+cd Summon-MCP
 npm install
 npm run build
 ```
